@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #270cac78;
+  }
+
+  .register-page__form {
+    width: 30%;
+    height: 50%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 2px black;
+  }
+
+  .input-field {
+    align-self: flex-start;
+    display: grid; 
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 0px 5px 5px;
+  }
+
+  .input-field__button {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  a { 
+    color: dodgerblue;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+ 
+  
